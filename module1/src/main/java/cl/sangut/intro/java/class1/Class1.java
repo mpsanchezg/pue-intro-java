@@ -5,21 +5,6 @@ import cl.sangut.intro.java.Main;
 public class Class1 {
     // static: permite invocar el método sin crear el objeto
     // void: significa que no devuelve valor
-    public static final Class1 INSTANCE = new Class1();
-
-    static void main() {
-        System.out.println("Hello and welcome!");
-
-        Class1 obj = new Class1();
-
-        int parametro1 = 1;
-        int parametro2 = 2;
-
-        int resultado = obj.sumar(parametro1, parametro2);
-
-        INSTANCE.mostrarResultadoSuma(resultado);
-    }
-
     public int sumar(int parametro1, int parametro2) {
         return parametro1 + parametro2;
     }
