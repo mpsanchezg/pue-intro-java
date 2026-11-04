@@ -10,10 +10,12 @@ public class Class1 {
     static void main() {
         System.out.println("Hello and welcome!");
 
+        Class1 obj = new Class1();
+
         int parametro1 = 1;
         int parametro2 = 2;
 
-        int resultado = INSTANCE.sumar(parametro1, parametro2);
+        int resultado = obj.sumar(parametro1, parametro2);
 
         INSTANCE.mostrarResultadoSuma(resultado);
     }
