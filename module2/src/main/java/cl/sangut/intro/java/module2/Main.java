@@ -3,6 +3,7 @@ package cl.sangut.intro.java.module2;
 import cl.sangut.intro.java.module2.class2.Class2Exercise1;
 import cl.sangut.intro.java.module2.class2.Class2Exercise2Product;
 import cl.sangut.intro.java.module2.class2.Class2Exercise3Schedule;
+import cl.sangut.intro.java.module2.class2.Class2Exercise5;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -50,6 +51,19 @@ public class Main {
                         schedule.SATURDAY + ", " +
                         schedule.SUNDAY
         );
+        System.out.println("--------------------");
+
+        String nullableString = null;
+        System.out.println("---- Exercise 4 ----");
+        System.out.println("Nullable String: " + nullableString);
+        nullableString = "Now it has a value!";
+        System.out.println("Nullable String: " + nullableString);
+        System.out.println("--------------------");
+
+        System.out.println("---- Exercise 5 ----");
+        Class2Exercise5 distance = new Class2Exercise5(5, 300);
+        System.out.println("Distance in meters: " + distance.convertKilometersToMeters());
+        System.out.println("Distance in kilometers: " + distance.convertMetersToKilometers());
         System.out.println("--------------------");
     }
 }
