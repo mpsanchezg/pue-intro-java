@@ -2,7 +2,7 @@ package cl.sangut.intro.java.module1.class2;
 
 import java.util.ArrayList;
 
-public class Class2Exercises {
+public class Class2Exercise1 {
     String name;
     int age;
     String city;
@@ -13,7 +13,7 @@ public class Class2Exercises {
 
     ArrayList<String> schedule = new ArrayList<>();
 
-    public Class2Exercises(
+    public Class2Exercise1(
             String name,
             int age,
             String city,
