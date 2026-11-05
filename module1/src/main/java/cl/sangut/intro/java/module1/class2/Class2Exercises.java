@@ -1,4 +1,4 @@
-package cl.sangut.intro.class2.class2;
+package cl.sangut.intro.java.module1.class2;
 
 import java.util.ArrayList;
 

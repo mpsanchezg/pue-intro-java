@@ -1,7 +1,7 @@
-package cl.sangut.intro.class2;
+package cl.sangut.intro.java.module1;
 
-import cl.sangut.intro.class2.class1.Class1;
-import cl.sangut.intro.class2.class2.Class2Exercises;
+import cl.sangut.intro.java.module1.class1.Class1;
+import cl.sangut.intro.java.module1.class2.Class2Exercises;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

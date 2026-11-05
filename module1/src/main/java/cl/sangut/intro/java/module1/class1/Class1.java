@@ -1,4 +1,4 @@
-package cl.sangut.intro.class2.class1;
+package cl.sangut.intro.java.module1.class1;
 
 import cl.sangut.intro.class2.Main;
 
