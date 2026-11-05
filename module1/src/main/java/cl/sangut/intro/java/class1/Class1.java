@@ -1,6 +1,6 @@
-package cl.sangut.intro.java.class1;
+package cl.sangut.intro.class2.class1;
 
-import cl.sangut.intro.java.Main;
+import cl.sangut.intro.class2.Main;
 
 public class Class1 {
     // static: permite invocar el método sin crear el objeto
