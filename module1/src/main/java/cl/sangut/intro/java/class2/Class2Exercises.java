@@ -1,13 +1,43 @@
 package cl.sangut.intro.java.class2;
 
+import java.util.ArrayList;
+
 public class Class2Exercises {
+    String name;
+    int age;
+    String city;
+    String profession;
+    String company;
+    String email;
+    String phone;
+
+    ArrayList<String> schedule = new ArrayList<>();
+
+    public Class2Exercises(
+            String name,
+            int age,
+            String city,
+            String profession,
+            String email,
+            String phone,
+            String company
+    ) {
+        this.name = name;
+        this.age = age;
+        this.city = city;
+        this.profession = profession;
+        this.email = email;
+        this.phone = phone;
+        this.company = company;
+    }
+
     public void exercice1() {
         exerciseSeparate(2);
         System.out.println("Hello world!");
         exerciseSeparate(2);
     }
 
-    public void exercice2(String name, int age, String city) {
+    public void exercice2() {
         exerciseSeparate(2);
         System.out.println("Nombre: " + name);
         System.out.println("Edad: " + age);
@@ -30,15 +60,20 @@ public class Class2Exercises {
             String wednesdaySchedule,
             String thursdaySchedule,
             String fridaySchedule
-            ) {
+    ) {
         exerciseSeparate(4);
+        schedule.add(mondaySchedule);
+        schedule.add(tuesdaySchedule);
+        schedule.add(wednesdaySchedule);
+        schedule.add(thursdaySchedule);
+        schedule.add(fridaySchedule);
         System.out.println(
                 "-- Horario semanal --" +
-                "\nLunes: " + mondaySchedule +
-                "\nMartes: " + tuesdaySchedule +
-                "\nMiércoles: " + wednesdaySchedule +
-                "\nJueves: " + thursdaySchedule +
-                "\nViernes: " + fridaySchedule
+                        "\nLunes: " + schedule.get(0) +
+                        "\nMartes: " + schedule.get(1) +
+                        "\nMiércoles: " + schedule.get(2) +
+                        "\nJueves: " + schedule.get(3) +
+                        "\nViernes: " + schedule.get(4)
         );
         exerciseSeparate(4);
     }
@@ -50,15 +85,7 @@ public class Class2Exercises {
         exerciseSeparate(5);
     }
 
-    public void exercice6(
-            String name,
-            int age,
-            String city,
-            String profession,
-            String company,
-            String phone,
-            String email
-    ) {
+    public void exercice6() {
         exerciseSeparate(6);
         System.out.println("Nombre: " + name);
         System.out.println("Edad: " + age);
