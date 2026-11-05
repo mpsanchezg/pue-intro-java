@@ -11,6 +11,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>cl.sangut.intro.java</groupId>
+    <groupId>cl.sangut.intro.java.module2</groupId>
     <artifactId>module2</artifactId>
 </project>
